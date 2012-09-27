@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BreakOutCloneActivity!</string>
+    <string name="app_name">BreakOutClone</string>
+	<string name="leftButton">L</string>
+	<string name="rightButton">R</string>
+</resources>

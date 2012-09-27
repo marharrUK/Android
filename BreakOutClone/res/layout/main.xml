@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:id="@+id/mainCanvas">
+    <com.minaq.view.CanvasPanel
+        android:id="@+id/gameCanvas"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">    
+	</com.minaq.view.CanvasPanel>
+	<Button
+    android:id="@+id/leftPad"
+    android:text="@string/leftButton"
+    android:layout_alignLeft="@id/gameCanvas"
+    android:layout_alignBottom="@id/gameCanvas"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+  />
+	<Button
+    android:id="@+id/rightPad"
+    android:text="@string/rightButton"
+    android:layout_alignRight="@id/gameCanvas"
+    android:layout_alignBottom="@id/gameCanvas"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+  />
+	
+    
+</RelativeLayout>
